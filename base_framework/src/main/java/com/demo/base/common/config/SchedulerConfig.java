@@ -1,4 +1,4 @@
-package com.demo.base.config;
+package com.demo.base.common.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

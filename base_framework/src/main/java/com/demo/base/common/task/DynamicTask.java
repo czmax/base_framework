@@ -1,4 +1,4 @@
-package com.demo.base.task;
+package com.demo.base.common.task;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

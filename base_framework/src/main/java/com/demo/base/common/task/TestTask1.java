@@ -1,4 +1,4 @@
-package com.demo.base.task;
+package com.demo.base.common.task;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
@@ -8,11 +8,11 @@ import org.springframework.stereotype.Component;
  * @created 2019-01-20-11:28.
  */
 @Component
-public class TestTask3 implements Runnable {
+public class TestTask1 {
     private int count = 0;
 
-    @Override
-    public void run() {
+    @Scheduled(cron = "*/6 * * * * ?")
+    private void process() {
         System.out.println("[" + Thread.currentThread().getName() + "]" + "this is scheduler task runing  " + (count++));
     }
 }

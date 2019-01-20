@@ -1,4 +1,4 @@
-package com.demo.base.task;
+package com.demo.base.common.task;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;

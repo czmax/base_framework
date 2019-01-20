@@ -1,8 +1,7 @@
-package com.demo.base.utils;
+package com.demo.base.common.utils;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

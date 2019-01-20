@@ -1,4 +1,4 @@
-package com.demo.base.utils;
+package com.demo.base.common.utils;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.HttpResponse;
